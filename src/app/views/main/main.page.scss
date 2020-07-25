@@ -1,0 +1,87 @@
+.icon-main {
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  color: #1eea00;
+  position: absolute;
+  left: 95%;
+}
+
+.slide{
+  height: 80%;
+  display: block;
+}
+
+.slide p {
+  padding-top: 100px;
+  font-size: 15px;
+  color: gray;
+}
+
+/*
+  Styles Body
+*/
+img{
+  margin: 100px 0 0 0;
+  width: 250px;
+}
+
+h1 {
+  color: #1eea00;
+  font-family: monserrat;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+}
+
+p{
+  font-style: italic;
+}
+/*
+  End Styles Body
+*/
+
+/*
+  Styles Slider
+*/
+ion-slides {
+  height: 100%;
+  --bullet-padding-top: 0px;
+  --bullet-background: gray;
+  --bullet-background-active: rgb(48, 48, 48)
+}
+
+:root {
+  --ion-safe-area-top: 20px;
+  --ion-safe-area-bottom: 22px;
+}
+
+.swiper-slide {
+  display: block;
+}
+/*
+  End Styles Slider
+*/
+
+/*
+  Styles Buttons
+*/
+.btn {
+  height: 50px;
+  --background: #1eea00;
+  font-family: monserrat;
+}
+
+.btn-register {
+  --color: #093f1d;
+  --background: #1eea00;
+}
+
+.btn-entry {
+  --background: #093f3a;
+  --color: #fff;
+}
+/*
+  End Styles Buttons
+*/

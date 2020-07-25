@@ -1,0 +1,46 @@
+.title-header{
+  text-align: center;
+  font-family: monserrat;
+  color: #093f3a;
+}
+
+ion-back-button {
+  --color: #1eea00;
+  --icon-font-size: 100px;
+}
+
+.radio-btn-svg-1{
+  float: left;
+  padding-left: 60px;
+}
+
+.radio-btn-svg-2,
+.radio-btn-svg-3,
+.radio-btn-svg-4{
+  float: left;
+  padding-left: 70px;
+}
+
+.path-svg{
+  fill: green;
+}
+
+.left-space {
+  // background: red; 
+  width: 10%; 
+  float:left;
+  height: 80px;
+}
+.center-space {
+  // background: blue; 
+  width: 80%; 
+  float:left;
+  height: 80px;
+}
+
+.right-space {
+  // background: yellow; 
+  width: 10%; 
+  float:left;
+  height: 80px;
+}
